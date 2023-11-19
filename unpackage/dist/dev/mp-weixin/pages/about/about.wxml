@@ -1,0 +1,1 @@
+<view class="center"><view class="component"><my-component vue-id="1cea7424-1" bind:__l="__l"></my-component></view><view class="footer"><my-footer vue-id="1cea7424-2" bind:__l="__l"></my-footer></view><view class="back"><back-home vue-id="1cea7424-3" bind:__l="__l"></back-home></view></view>

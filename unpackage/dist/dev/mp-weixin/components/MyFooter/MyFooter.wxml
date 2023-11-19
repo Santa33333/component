@@ -1,0 +1,1 @@
+<view class="data-v-5bee7c38"><view class="data-v-5bee7c38">{{messages[clickCount]}}</view><button data-event-opts="{{[['tap',[['handleClick',['$event']]]]]}}" bindtap="__e" class="data-v-5bee7c38">click me</button></view>
