@@ -11,6 +11,12 @@
 			"style": {
 				"navigationBarTitleText": "test-component"
 			}
+		},
+		{
+			"path":"pages/test/test",
+			"style":{
+				"navigationBarTitleText":"parent-component"
+			}
 		}
 	],
 	"globalStyle": {

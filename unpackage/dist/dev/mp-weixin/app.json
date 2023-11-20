@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/test/test"
   ],
   "subPackages": [],
   "window": {
@@ -10,5 +11,7 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "child-component": "/components/ChildComponent/ChildComponent"
+  }
 }

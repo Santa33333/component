@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "parent-component",
+  "usingComponents": {
+    "apple": "/components/apple/apple"
+  }
+}

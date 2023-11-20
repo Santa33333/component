@@ -109,7 +109,7 @@
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/BackHome/BackHome":"components/BackHome/BackHome","components/MyComponent/MyComponent":"components/MyComponent/MyComponent","components/MyFooter/MyFooter":"components/MyFooter/MyFooter"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/ChildComponent/ChildComponent":"components/ChildComponent/ChildComponent","components/BackHome/BackHome":"components/BackHome/BackHome","components/MyComponent/MyComponent":"components/MyComponent/MyComponent","components/MyFooter/MyFooter":"components/MyFooter/MyFooter","components/apple/apple":"components/apple/apple"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
